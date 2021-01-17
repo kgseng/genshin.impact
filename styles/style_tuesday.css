@@ -1,0 +1,125 @@
+﻿body {
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-bottom: 300px;
+    background-color: #808080;
+}
+
+.head1 {
+    padding: 100px;
+    font-size: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    height: 100px;
+    /* The image used */
+    background-image: url("../images/scene6.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #cc0000;
+}
+
+.date_message {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.forsaken_domain {
+    margin: auto;
+    font-size: 40px;
+    color: #00ffff;
+}
+
+h3 {
+    text-align: center;
+}
+
+.taishan_domain {
+    margin: auto;
+    font-size: 35px;
+    color: #ff0000
+}
+
+p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.para {
+    margin-left: 960px;
+    margin-right: 960px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.divider {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    font-weight: bold;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.images_pyro {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff0000;
+}
+
+.images_electro {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #9400D3;
+}
+
+.images_cryo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #00FFFF;
+}
+
+.images_hydro {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0000FF;
+}
+
+.images_geo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #DAA520;
+}
+
+.images_anemo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #00FA9A;
+}
